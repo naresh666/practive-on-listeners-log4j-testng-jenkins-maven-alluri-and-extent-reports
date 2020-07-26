@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [my practice suite]">
+  <test thread-count="5" name=" sanity Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.webDotCom.extentreports.testClass1">
+        <methods>
+          <include name="testFailed"/>
+          <include name="testSkipped"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="loaswebPage"/>
+          <include name="afterclass1"/>
+        </methods>
+      </class> <!-- com.qa.webDotCom.extentreports.testClass1 -->
+    </classes>
+  </test> <!--  sanity Test(failed) -->
+</suite> <!-- Failed suite [my practice suite] -->
